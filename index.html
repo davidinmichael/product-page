@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Title</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="/static/css/styles.css" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <header class="bg-white py-12 md:py-20">
+      <div
+        class="container mx-auto px-5 grid md:grid-cols-2 gap-12 items-center"
+      >
+        <!-- Left Content -->
+        <div>
+          <span
+            class="inline-block bg-orange-100 text-orange-600 font-semibold px-4 py-2 rounded-full text-sm"
+          >
+            Best Seller
+          </span>
+
+          <h1 class="font-bold mt-6 leading-tight">
+            Organize Your Home Without Drilling Holes
+          </h1>
+
+          <p class="mt-5 text-gray-600 text-lg">
+            Strong self-adhesive wall hooks that securely hold your everyday
+            items. Perfect for kitchens, bathrooms, bedrooms, offices, and more.
+          </p>
+
+          <div class="mt-8 space-y-3">
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-circle-check text-orange-500"></i>
+              <span>No Nails or Drilling Required</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-circle-check text-orange-500"></i>
+              <span>Strong & Durable Adhesive</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-circle-check text-orange-500"></i>
+              <span>Works on Most Smooth Surfaces</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <i class="fa-solid fa-circle-check text-orange-500"></i>
+              <span>Easy Installation in Seconds</span>
+            </div>
+          </div>
+
+          <div class="mt-10 flex flex-wrap gap-4">
+            <a href="#order-form" class="btn btn-primary"> Order Now </a>
+
+            <a href="#gallery" class="btn btn-outline"> View Gallery </a>
+          </div>
+
+          <p class="mt-6 text-sm text-gray-500">
+            Trusted by hundreds of happy customers.
+          </p>
+        </div>
+
+        <!-- Right Content -->
+        <div class="relative">
+          <img
+            src="https://res.cloudinary.com/dskpdlvxu/image/upload/v1782741704/001_ybyuo1.jpg"
+            alt="Wall Hook"
+            class="w-full max-w-lg mx-auto rounded-3xl shadow-xl"
+          />
+
+          <div
+            class="absolute top-5 left-0 bg-white shadow-lg px-5 py-3 rounded-xl"
+          >
+            <strong class="block text-orange-500">No Drilling</strong>
+            <small>No Damage to Walls</small>
+          </div>
+
+          <div
+            class="absolute bottom-6 right-0 bg-white shadow-lg px-5 py-3 rounded-xl"
+          >
+            <strong class="block text-orange-500">Strong Hold</strong>
+            <small>Built for Daily Use</small>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Product Gallery -->
+    <section id="gallery" class="bg-white">
+      <div class="container">
+        <!-- Section Heading -->
+        <div class="section-heading">
+          <span>Product Gallery</span>
+
+          <h2>See the Wall Hook from Every Angle</h2>
+
+          <p>
+            Take a closer look at our premium self-adhesive wall hook. Designed
+            to blend beautifully into any space while providing a strong and
+            reliable hold.
+          </p>
+        </div>
+
+        <!-- Main Image -->
+        <div class="gallery-preview">
+          <img
+            id="featured-image"
+            src="https://res.cloudinary.com/dskpdlvxu/image/upload/v1782741705/006_edazhc.jpg"
+            alt="Wall Hook"
+          />
+        </div>
+
+        <!-- Thumbnails -->
+        <div class="gallery-thumbnails">
+          <img
+            class="gallery-thumb active"
+            src="https://res.cloudinary.com/dskpdlvxu/image/upload/v1782741704/002_yhm5js.jpg"
+            alt=""
+          />
+
+          <img
+            class="gallery-thumb"
+            src="https://res.cloudinary.com/dskpdlvxu/image/upload/v1782741704/008_tskmgk.jpg"
+            alt=""
+          />
+
+          <img
+            class="gallery-thumb"
+            src="https://res.cloudinary.com/dskpdlvxu/image/upload/v1782741704/004_qzchkg.jpg"
+            alt=""
+          />
+
+          <img
+            class="gallery-thumb"
+            src="https://res.cloudinary.com/dskpdlvxu/image/upload/v1782741705/003_r55biy.jpg"
+            alt=""
+          />
+
+          <img
+            class="gallery-thumb"
+            src="https://res.cloudinary.com/dskpdlvxu/image/upload/v1782741705/005_yzqvnl.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Features -->
+    <section id="features" class="bg-gray-50">
+      <div class="container">
+        <div class="section-heading">
+          <span>Features</span>
+
+          <h2>Designed for Convenience and Strength</h2>
+
+          <p>
+            Every wall hook is built to provide a secure hold while keeping your
+            walls neat and damage-free.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-hand-fist"></i>
+            </div>
+
+            <h4>Strong Adhesive</h4>
+
+            <p>
+              High-quality adhesive backing keeps the hook firmly attached to
+              smooth surfaces.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+
+            <h4>No Drilling Required</h4>
+
+            <p>
+              Install in seconds without nails, screws, or damaging your walls.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-droplet"></i>
+            </div>
+
+            <h4>Waterproof</h4>
+
+            <p>
+              Suitable for bathrooms, kitchens, and other humid environments.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-weight-hanging"></i>
+            </div>
+
+            <h4>Heavy-Duty Support</h4>
+
+            <p>
+              Designed to hold everyday household items securely with
+              confidence.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-bolt"></i>
+            </div>
+
+            <h4>Easy Installation</h4>
+
+            <p>
+              Peel, stick, press firmly, and it's ready to use within minutes.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+
+            <h4>Multi-Purpose</h4>
+
+            <p>Perfect for kitchens, bathrooms, bedrooms, offices, and more.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Benefits -->
+    <section id="benefits">
+      <div class="container">
+        <div class="section-heading">
+          <span>Benefits</span>
+
+          <h2>Why You'll Love These Wall Hooks</h2>
+
+          <p>
+            More than just a hook, it's a simple way to keep your space neat,
+            organized, and free from unnecessary wall damage.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+
+            <div>
+              <h4>Keep Your Space Organized</h4>
+              <p>
+                Easily arrange your kitchen utensils, towels, keys, bags, and
+                other essentials so everything has its place.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fa-solid fa-hammer"></i>
+            </div>
+
+            <div>
+              <h4>No Damage to Your Walls</h4>
+              <p>
+                Forget nails and drills. Install your hooks without leaving
+                holes or cracks behind.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+
+            <div>
+              <h4>Install in Minutes</h4>
+              <p>
+                Simply peel, stick, and press firmly. No tools or professional
+                help required.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+
+            <div>
+              <h4>Reliable Everyday Support</h4>
+              <p>
+                Designed to securely hold your everyday household items with
+                confidence.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fa-solid fa-sink"></i>
+            </div>
+
+            <div>
+              <h4>Perfect for Wet Areas</h4>
+              <p>
+                Ideal for bathrooms and kitchens where moisture is common,
+                thanks to its water-resistant design.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+
+            <div>
+              <h4>Use It Anywhere</h4>
+              <p>
+                Great for homes, offices, hostels, shops, hotels, and many other
+                spaces with smooth surfaces.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQs -->
+    <section id="faq" class="bg-gray-50">
+      <div class="container">
+        <div class="section-heading">
+          <span>Frequently Asked Questions</span>
+
+          <h2>Have Questions? We've Got Answers.</h2>
+
+          <p>
+            Here are answers to some of the most common questions about our
+            self-adhesive wall hooks.
+          </p>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-item active">
+            <button class="faq-question">
+              <span>Does it require drilling or nails?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                No. Simply peel off the protective film, stick it onto a clean,
+                smooth surface, press firmly, and it's ready for use.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>What surfaces does it work on?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                It works best on smooth surfaces such as tiles, glass, marble,
+                metal, polished wood, and smooth painted walls.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can it be used in the bathroom?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Yes. The adhesive is water-resistant, making it ideal for
+                bathrooms, kitchens, and other humid areas.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>How much weight can it hold?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                The hook is designed for everyday household items. For best
+                results, avoid exceeding the recommended weight limit provided
+                with the product.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Can I remove it later?</span>
+              <i class="fa-solid fa-plus"></i>
+            </button>
+
+            <div class="faq-answer">
+              <p>
+                Yes. Removal is straightforward, though the exact method depends
+                on the surface. Following the recommended removal instructions
+                helps minimize residue.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing and Offer -->
+    <section id="pricing" class="bg-gray-50">
+      <div class="container">
+        <div class="section-heading">
+          <span>Special Offer</span>
+
+          <h2>Choose the Package That's Right for You</h2>
+
+          <p>
+            Enjoy affordable bundle pricing and get more value with every
+            purchase.
+          </p>
+        </div>
+
+        <div class="pricing-grid" id="pricing-grid"></div>
+      </div>
+    </section>
+
+    <!-- Order Form -->
+    <section id="order-form">
+      <div class="container">
+        <div class="section-heading">
+          <span>Place Your Order</span>
+
+          <h2>Ready to Order?</h2>
+
+          <p>
+            Fill in your details below and you'll be redirected to
+            complete your order.
+          </p>
+        </div>
+
+        <form id="product-order-form" class="order-form">
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="e.g. 08012345678"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="country">Country</label>
+              <input
+                type="text"
+                id="country"
+                name="country"
+                value="Nigeria"
+                readonly
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="state">State</label>
+
+              <select id="state" name="state" required>
+                <option value="">Loading states...</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="package">Package</label>
+
+              <select id="package" name="package" required>
+                <option value="">Select a package</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group mt-6">
+            <label for="address">Delivery Address</label>
+
+            <textarea
+              id="address"
+              name="address"
+              rows="4"
+              placeholder="Enter your delivery address"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-full mt-8">
+            Place Order Now!
+          </button>
+        </form>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>
