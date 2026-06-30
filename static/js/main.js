@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", () => {
   const featuredImage = document.getElementById("featured-image");
   const thumbnails = document.querySelectorAll(".gallery-thumb");
-  const BUSINESS_WHATSAPP = "2348140980792";
+  const BUSINESS_WHATSAPP = "2348069185050";
 
   thumbnails.forEach((thumb) => {
     thumb.addEventListener("click", () => {
